@@ -1,0 +1,233 @@
+@font-face {
+    font-family: D-DIN-Bold;
+    src: url('fonts/d-din/D-DIN-Bold.otf');
+}
+
+@font-face {
+    font-family: D-DIN-Regular;
+    src: url('fonts/d-din/D-DIN.otf');
+}
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 50px;
+    height: 40px;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.center a{
+    text-decoration: none;
+    left: 540px;
+    font-size: 22px;
+    padding: 0 13px;
+    color: white;
+    position: relative;
+}
+.center a:before, .Rnav a::before{
+    content: '';
+    width: 0;
+    right: 0;
+    bottom: -4px;
+    height: 1.5px;
+    background-color: #fff;
+    position: absolute;
+    transition: width .2s linear;
+
+}
+.center a:hover:before, .Rnav a:hover:before{
+    width: 100%;
+    right: initial;
+    left: 0;
+
+}
+
+.Rnav{
+position: fixed;
+right: 0;
+top: 0;
+height: 40px;
+display: flex;
+align-items: center;
+}
+
+.hamburger{
+    position: fixed;
+    font-size: large;
+    right: 31px;
+    top: 17px;
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.hamburger span{
+    display: block;
+    width: 17px;
+    height: 0.4px;
+    margin: 2px 0;
+    background-color: white;
+    position: relative;
+    transition: all o.2s linear;
+
+}
+
+section {
+    min-height: 100vh;
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+section div.content-outer {
+    flex-grow: 1;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+section.active div.content{
+    opacity: 1;
+    bottom: 15vh;
+}
+
+section div.content {
+    position: absolute;
+    bottom: 15vh;
+    left: 50px;
+    max-width: 150px;
+}
+
+section div.content h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+section div.content h3 {
+    margin: 0 0 10px;
+}
+
+section div.content a {
+    border: 2px solid #fff;
+    display: inline-block;
+    padding: 15px 50px;
+    text-decoration: none;
+    color: #fff;
+    margin: 8px;
+}
+
+
+footer{
+    padding: 30px;
+    font-size: 12px;
+    font-family: D-DIN-Regular;
+}
+footer nav{
+    text-align: center;
+}
+footer nav span{
+    color: #777;
+    display: inline-block;
+    padding-right:40px;
+}
+footer nav a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: color .3s linear;
+}
+footer nav a:hover{
+    color: #777;
+}
+
+
+
+
+
+.hamburger.active span:first-child,
+.hamburger.active span:nth-child(2){
+    transform: rotate(45deg);
+    position: absolute;
+}
+.hamburger.active span:nth-child(2){
+    transform: rotate(-45deg);
+}
+
+.hamburger.active span:last-child{
+    opacity: 0;
+
+}
+
+nav.mobile {
+    padding-top: 70px;
+    display: block;
+    position: fixed;
+    top: 0px;
+    right: -280px;
+    bottom: 0;
+    width: 200px;
+    z-index: 1;
+    background-color: #000;
+    padding: 20px;
+    transition: right 0.3s ease-in-out;
+}
+
+nav.mobile.active {
+    right: 0;
+}
+
+nav.mobile a {
+    display: block;
+    opacity: 0;
+    border-bottom: 1px solid #0e0e0e;
+    padding: 20px;
+    right: 0;
+    text-decoration: none;
+    text-align: right;
+    font-family: D-DIN-Regular, sans-serif;
+    color: white;
+    transition: opacity .3s linear;
+    transition-delay: .2s;
+}
+
+nav.mobile.active a {
+    opacity: 10;
+}
+
+nav.mobile a:nth-child(2) {
+    transition-delay: .25s;
+}
+
+nav.mobile a:nth-child(3) {
+    transition-delay: .3s;
+}
+
+nav.mobile a:hover {
+    color: grey;
+}
+
+.shadow.active{
+    inset:0;
+    background-color:rgba( 0,0,0,.5);
+    z-index: 1;
+}
