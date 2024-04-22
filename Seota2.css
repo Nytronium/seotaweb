@@ -140,7 +140,7 @@ section div.content a {
 footer{
     padding: 30px;
     font-size: 12px;
-    font-family: D-DIN;
+    font-family: monospace;
 }
 footer nav{
     text-align: center;
