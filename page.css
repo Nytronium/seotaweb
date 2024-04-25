@@ -1,0 +1,69 @@
+.hobbies{
+    font-size: 60px;
+    left: 620px;
+    bottom: 530px;
+    padding: 0 13px;
+    color: white;
+    position: absolute;
+}
+
+.details{
+    font-family: D-DIN,Arial,Verdana,sans-serif;
+    left: 490px;
+    bottom: 520px;
+    color: white;
+    position: relative;
+    font: 30px;
+}
+
+.extra_1{
+    font-family: D-DIN,Arial,Verdana,sans-serif;
+    position: relative;
+    left: -180px;
+    bottom: 450px;
+    font-size: 20px;
+    max-width: 950px;
+}
+
+.extra_2{
+    font-family: D-DIN,Arial,Verdana,sans-serif;
+    position: absolute;
+    left: 320px;
+    bottom: 360px;
+    font-size: 20px;
+    max-width: 950px;
+}
+
+
+
+
+
+
+
+
+.interests{
+    font-size: 60px;
+    left: 585px;
+    bottom: 500px;
+    padding: 0 13px;
+    color: white;
+    position: absolute;
+}
+
+.space{
+    font-family: D-DIN,Arial,Verdana,sans-serif;
+    position: absolute;
+    left: 320px;
+    bottom: 360px;
+    font-size: 20px;
+    max-width: 950px;
+}
+
+.future{
+    font-family: D-DIN,Arial,Verdana,sans-serif;
+    position: absolute;
+    left: 210px;
+    bottom: 260px;
+    font-size: 20px;
+    max-width: 2000px;
+}
