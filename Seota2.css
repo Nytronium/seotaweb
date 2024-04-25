@@ -20,6 +20,7 @@ body{
     font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
 }
 header{
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
     display: flex;
     align-items: center;
     max-width: 1400px;
