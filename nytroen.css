@@ -1,0 +1,64 @@
+.nytroen{
+    font-size: 60px;
+    left: 600px;
+    bottom: 600px;
+    padding: 0 13px;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.about{
+    font-size: 19.8px;
+    max-width: 320px;
+    left: 300px;
+    bottom: 490px;
+    padding: 0 13px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    text-align: center;
+}
+
+.central{
+    font-size: 60px;
+    left: 565px;
+    bottom: 600px;
+    padding: 0 13px;
+    color: white;
+    position: absolute;
+}
+
+.centralA{
+    font-size: 60px;
+    left: 500px;
+    bottom: 600px;
+    padding: 0 13px;
+    color: white;
+    position: absolute;
+}
+
+.centralB{
+    font-size: 60px;
+    left: 565px;
+    bottom: 450px;
+    padding: 0 13px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+.centralC{
+    font-size: 60px;
+    left: 535px;
+    bottom: 500px;
+    padding: 0 13px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+.centralD{
+    font-size: 60px;
+    left: 565px;
+    bottom: 500px;
+    padding: 0 13px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+}
