@@ -1,0 +1,42 @@
+section {
+    min-height: 120vh;
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+section div.content-outer1 {
+    flex-grow: 1;
+
+    margin: 0 auto;
+}
+
+section.active div.content1{
+    opacity: 1;
+    bottom: 15vh;
+}
+
+section div.content1 {
+    position: absolute;
+    bottom: 80vh;
+    left: 620px;
+}
+
+section div.content1 h2 {
+    font-size: 100px;
+    margin: 0;
+}
+
+.why{
+    
+    position: relative;
+    max-width: 600px;
+    bottom: 60vh;
+    left: 450px;
+    text-align:center;
+}
+
